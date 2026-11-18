@@ -1,0 +1,43 @@
+{
+  "source": "Google Scholar",
+  "profileUrl": "https://scholar.google.com/citations?user=aF-AD1QAAAAJ&hl=en",
+  "updated": "2026-11-18",
+  "citations": 325,
+  "hIndex": 11,
+  "i10Index": 13,
+  "yearlyApproximate": false,
+  "yearly": [
+    {
+      "year": 2019,
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "count": 17
+    },
+    {
+      "year": 2022,
+      "count": 70
+    },
+    {
+      "year": 2023,
+      "count": 68
+    },
+    {
+      "year": 2024,
+      "count": 51
+    },
+    {
+      "year": 2025,
+      "count": 66
+    },
+    {
+      "year": 2026,
+      "count": 41
+    }
+  ]
+}

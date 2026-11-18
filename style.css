@@ -124,3 +124,43 @@ footer{background:#102c35}
 .hero-hook i{font-style:italic;font-weight:600}
 @media(max-width:820px){.hero h1{font-size:clamp(38px,6.6vw,52px)}}
 @media(max-width:520px){.hero h1{font-size:clamp(34px,9.2vw,44px);letter-spacing:-1.5px}.hero .role{font-size:12.5px}.hero-hook{font-size:18px}}
+
+
+/* Compact Research Impact / Citation Overview — November 2026 */
+.citation-widget{max-width:930px;margin:27px auto 14px;padding:19px 22px 14px;background:#fff;border:1px solid #dbe4de;border-radius:14px;box-shadow:0 8px 24px rgba(38,65,54,.045);position:relative;overflow:hidden}
+.citation-widget::before{content:"";height:3px;position:absolute;left:0;right:0;top:0;background:linear-gradient(90deg,#2c827d 0%,#65a9a0 48%,#d8a06b 83%,#7c91b4 100%)}
+.citation-topline{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:14px}
+.citation-eyebrow{font-size:9px;font-weight:800;letter-spacing:1.3px;color:#287b74}
+.citation-subtitle{letter-spacing:0;font-weight:600;color:#6e8176}
+.citation-topline h3{font:800 16px/1.25 Manrope,sans-serif;letter-spacing:-.3px;color:var(--ink);margin:3px 0 0}
+.citation-profile{font-size:11px;font-weight:800;color:#247b7c;white-space:nowrap;border-bottom:1px solid #96bfbb;padding-bottom:2px}
+.citation-profile:hover{color:#bd7d51;border-color:#bd7d51}
+.citation-layout{display:grid;grid-template-columns:minmax(250px,1fr) minmax(340px,1.1fr);gap:24px;align-items:center}
+.citation-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center}
+.citation-stat{padding:4px 10px 5px 14px;min-height:65px;display:flex;flex-direction:column;justify-content:center;gap:5px;border-left:3px solid}
+.citation-stat strong{font:800 clamp(23px,2.3vw,30px)/1 Manrope,sans-serif;letter-spacing:-1px}
+.citation-stat span{font-size:10px;white-space:nowrap;color:#61746b;font-weight:600}
+.citation-stat-blue{color:#487eb2;border-left-color:#74a7d2}.citation-stat-green{color:#287e6c;border-left-color:#59a993}.citation-stat-orange{color:#b37d42;border-left-color:#d8ab72}
+.citation-chart-area{width:100%;max-width:425px;justify-self:end;min-width:0}
+.citation-chart-heading{display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:800;color:#4d6057;margin:0 0 6px}
+.citation-chart-range{font-size:10px;font-weight:600;color:#84938b}
+.citation-chart{height:133px;display:grid;grid-template-columns:repeat(8,minmax(0,1fr));column-gap:7px;align-items:end;padding:0 3px 0;border-bottom:1px solid #dce5df;background:linear-gradient(to top,transparent 49.5%,#eef3ef 50%,transparent 50.5%);}
+.citation-year{height:100%;min-width:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:0}
+.citation-bar-count{height:15px;line-height:15px;font-size:10px;color:#50665c;font-weight:800;font-variant-numeric:tabular-nums}
+.citation-bar-track{height:95px;width:100%;display:flex;justify-content:center;align-items:flex-end}
+.citation-bar{display:block;width:min(100%,24px);min-height:3px;border-radius:4px 4px 0 0;transition:filter .2s,transform .2s;transform-origin:bottom}
+.citation-bar:hover{filter:brightness(.87);transform:scaleX(1.08)}
+.citation-year-label{width:100%;height:23px;line-height:23px;text-align:center;color:#6d7e75;font-size:10px;font-weight:600;font-variant-numeric:tabular-nums}
+.citation-footnote{font-size:10px!important;line-height:1.45!important;color:#718177!important;margin:11px 0 0!important}
+.citation-dot{padding:0 3px}
+@media(max-width:700px){.citation-widget{max-width:100%;padding:15px 13px 12px}.citation-layout{grid-template-columns:minmax(0,1fr);gap:12px}.citation-chart-area{justify-self:stretch;max-width:425px}.citation-stats{max-width:390px}.citation-chart{height:128px}.citation-bar-track{height:90px}}
+@media(max-width:380px){.citation-year-label{font-size:8px}.citation-chart{column-gap:3px}.citation-stat{padding:3px 7px 3px 9px}.citation-stat strong{font-size:21px}.citation-profile{font-size:10px}}
+
+/* Research Impact Snapshot · Publications section only */
+.sci-panel{margin:30px 0 0;border:1px solid #d9e2df;border-radius:20px;background:#fff;padding:24px 26px 20px;box-shadow:0 4px 24px rgba(24,66,57,.035);font-family:'DM Sans',sans-serif;color:#203f43}
+.sci-panel *{box-sizing:border-box}.sci-panel p{margin:0}.sci-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:18px}.sci-overline{color:#16777b;font-size:10px;font-weight:800;letter-spacing:.12em}.sci-overline span{color:#537b79}.sci-head h3{font-family:Manrope,sans-serif;font-size:22px;font-weight:800;line-height:1.25;margin:6px 0 0;letter-spacing:-.6px}.sci-date{font-size:10px;letter-spacing:.06em;color:#708686;white-space:nowrap;margin-top:6px}
+.sci-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:16px}.sci-metric{background:#f7f9f8;border:1px solid #e9edeb;border-left:4px solid #26787c;border-radius:7px;padding:10px 13px;display:flex;align-items:center;justify-content:space-between;gap:7px;min-width:0}.sci-metric strong{font:800 25px/1.1 Manrope,sans-serif;letter-spacing:-.5px;font-variant-numeric:tabular-nums}.sci-metric span{font:800 9px/1.3 'DM Sans',sans-serif;color:#536966;text-align:right;letter-spacing:.01em}.sci-metric-a strong{color:#26787c}.sci-metric-b{border-left-color:#3a9174}.sci-metric-b strong{color:#38876c}.sci-metric-c{border-left-color:#d2924d}.sci-metric-c strong{color:#c98d4d}.sci-metric-d{border-left-color:#638da9}.sci-metric-d strong{color:#5e87a6}
+.sci-charts{display:grid;grid-template-columns:1.48fr 1fr;gap:12px}.sci-chart-box{border:1px solid #e3e9e6;border-radius:11px;padding:13px 12px 9px;background:#fff;min-width:0}.sci-chart-title{color:#235d62;font-weight:800;text-transform:uppercase;font-size:11px;letter-spacing:.045em;line-height:1.4;display:flex;align-items:center;justify-content:space-between;gap:8px}.sci-chart-title span{font:500 9px/1.3 'DM Sans',sans-serif;color:#be8c56;text-transform:none;letter-spacing:0;white-space:nowrap}.sci-svg{display:block;width:100%;max-height:190px;height:auto;overflow:visible;margin-top:8px}.sci-grid-line{stroke:#e0e9e6;stroke-width:1}.sci-tick,.sci-year{fill:#6a7e7d;font:11px 'DM Sans',sans-serif}.sci-value{fill:#1b4447;font:800 11px 'DM Sans',sans-serif}.sci-end-value{fill:#26787c;font:800 15px 'DM Sans',sans-serif}
+.sci-distribution{margin-top:13px}.sci-breakdown{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:6px 15px;color:#6e8580;font-size:10px;margin:8px 0 9px}.sci-breakdown span{display:flex;align-items:baseline;gap:6px}.sci-breakdown span strong{font:800 16px Manrope,sans-serif;color:#408e8c}.sci-breakdown>strong{font:800 12px Manrope,sans-serif;color:#26787c}.sci-track{height:10px;background:#e8f0ed;display:flex;overflow:hidden;border-radius:3px}.sci-track span{display:block;height:100%;min-width:0}.sci-track span:nth-child(1){background:#bbd7ca}.sci-track span:nth-child(2){background:#76b5a8}.sci-track span:nth-child(3){background:#26787c}.sci-bottom{border-top:1px solid #edf0ed;margin-top:14px;padding-top:12px;display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;font-size:10px;color:#7b8c86}.sci-bottom a{font-weight:800;color:#176f77;white-space:nowrap}.sci-bottom a:hover{text-decoration:underline}
+@media(max-width:850px){.sci-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.sci-charts{grid-template-columns:1fr}.sci-svg{max-height:210px}.sci-panel{padding:20px}.sci-head h3{font-size:20px}}
+@media(max-width:480px){.sci-panel{padding:16px 12px;border-radius:13px}.sci-head{flex-wrap:wrap}.sci-overline{font-size:9px}.sci-date{margin-top:0}.sci-metric{padding:9px 10px}.sci-metric strong{font-size:22px}.sci-metric span{font-size:8px}.sci-chart-box{padding:10px 5px}.sci-breakdown{gap:6px 10px}.sci-bottom{font-size:9px}}
